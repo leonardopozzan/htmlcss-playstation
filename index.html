@@ -119,9 +119,9 @@
     </header>
 
     <main>
-        <section id="hero" class="text-white container-fluid py-4">
 
-            <!-- hero con titolo -->
+        <!-- hero con titolo -->
+        <section id="hero" class="text-white py-4">
             <div class="container-fluid d-flex flex-column justify-content-end align-items-start h-100">
                 <div class="w-50"><img src="img/returnal-hero-banner-logo.png" alt="scritta returnal" class="img-fluid"></div>
                 <h1 class="my-4">Rompi il cerchio</h1>
@@ -130,9 +130,9 @@
             </div>
         </section>
 
-        <section>
+        <section class="container-fluid py-4">
             <!-- sezione delle card animate -->
-            <div class="row gy-3 container-fluid py-4">
+            <div class="row gy-3">
                 <div class="col-6 col-sm-4 col-lg-2 my-box-shadow">
                     <div class="rounded-3 overflow-hidden my-border-white">
                         <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal game" class="img-fluid">
@@ -166,24 +166,82 @@
             </div>
         </section>
 
-        <section class="container-fluid">
+        <section class="container-fluid py-4">
+            <div class="text-center text-primary text-uppercase fw-bold">play has no limit</div>
+            <h1 class="text-center">Ecco la PlayStation 5</h1>
+            <p class="text-center">Tuffati in nuove possibilità di gioco completamente insapettate</p>
+            <h2 class="fs-1">Console PlayStation 5</h2>
+            <p>Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
+            <button type="button" class="btn btn-primary rounded-5">Maggiori informazioni</button>
 
-            <div class="row mt-5 g-3">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/playstation-5-thumb.png" class="d-block w-100" alt="ps5">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/joypad-thumb.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/headset-thumb.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/remote-thumb.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/camera-thumb.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            <div class="row mt-5 gy-3">
                 <div class="col-4 col-md">
                     <div class="border-0 mb-3 card">
-                        <img src="./img/playstation-5-thumb.png" alt="ps5" class="img-fluid">
+                        <img src="/img/playstation-5-thumb.png" alt="ps5" class="img-fluid">
                         <p class="text-center d-none d-md-block">Console PS5</p>
                     </div>
                 </div>
                 <div class="col-4 col-md border-0">
                     <div class="card border-0">
-                        <img  src="./img/joypad-thumb.png" alt="joypad" class="img-fluid">
+                        <img  src="/img/joypad-thumb.png" alt="joypad" class="img-fluid">
                         <p class="text-center d-none d-md-block">Controller wireless DualSense</p>
                     </div>
                 </div>
                 <div class="col-4 col-md border-0">
                     <div class="card border-0">
-                        <img src="./img/headset-thumb.png" alt="headset" class="img-fluid">
+                        <img src="/img/headset-thumb.png" alt="headset" class="img-fluid">
                         <p class="text-center d-none d-md-block">Cuffie wireless con microfono Pulse 3</p>
                     </div>
                 </div>
@@ -200,7 +258,98 @@
                     </div>
                 </div>
             </div>
+        </section>
 
+        <!-- hero 2 con titolo -->
+        <section id="hero-2" class="text-white py-4">
+            <div class="container-fluid d-flex flex-column justify-content-end align-items-start h-100">
+                <h1 class="my-4">Un&#39;avventura cooperativa selvaggia ti attende</h1>
+                <p>Trova un amico e partite insieme per l&#39;avventura pi&ugrave; folle delle vostre vite it Takes Two,un gioco d&#39;avventura cooperativa a piattaforma che stravolge il suo genere.</p>
+                <button type="button" class="btn btn-danger rounded-5 my-4">Acquista ora</button>
+            </div>
+        </section>
+
+        <!-- nuove uscite -->
+        <section id="latest-releases" class="bg-dark text-white py-4">
+            <div class="container-fluid">
+                <h3 class="mb-3">Nuove uscite</h3>
+                <p>Giochi incredibili per PS4 e PS5 disponibili ora</p>
+                <div class="row gy-3">
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony hawks" class="img-fluid">
+                        </div>
+                        <span>Tony Hawk's Pro Skater 1+2</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash bandicoot" class="img-fluid">
+                        </div>
+                        <span>Crash Bandicoot 4: It's About Time</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony hawks" class="img-fluid">
+                        </div>
+                        <span>Tony Hawk's Pro Skater 1+2</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash bandicoot" class="img-fluid">
+                        </div>
+                        <span>Crash Bandicoot 4: It's About Time</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony hawks" class="img-fluid">
+                        </div>
+                        <span>Tony Hawk's Pro Skater 1+2</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash bandicoot" class="img-fluid">
+                        </div>
+                        <span>Crash Bandicoot 4: It's About Time</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony hawks" class="img-fluid">
+                        </div>
+                        <span>Tony Hawk's Pro Skater 1+2</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash bandicoot" class="img-fluid">
+                        </div>
+                        <span>Crash Bandicoot 4: It's About Time</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony hawks" class="img-fluid">
+                        </div>
+                        <span>Tony Hawk's Pro Skater 1+2</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash bandicoot" class="img-fluid">
+                        </div>
+                        <span>Crash Bandicoot 4: It's About Time</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony hawks" class="img-fluid">
+                        </div>
+                        <span>Tony Hawk's Pro Skater 1+2</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <div class="rounded-3 overflow-hidden my-border-white mb-2">
+                            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash bandicoot" class="img-fluid">
+                        </div>
+                        <span>Crash Bandicoot 4: It's About Time</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>

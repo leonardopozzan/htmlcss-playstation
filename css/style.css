@@ -15,12 +15,20 @@ html{
 #logo-sony{
     width: 90px;
 }
-/***************** hero 1 *******************/
-#hero{
-    background-image: url('../img/jumbo-bg.png');
+/***************** backgroun sezioni *******************/
+#hero, #hero-2{
     background-size: cover;
     background-position: center;
     height: 675px;
+}
+#hero{
+    background-image: url('../img/jumbo-bg.png');
+}
+#hero-2{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+#latest-release{
+    background-color: var(--bs-dark);
 }
 /***************** card animate *******************/
 
