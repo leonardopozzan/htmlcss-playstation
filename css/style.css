@@ -10,6 +10,7 @@ html{
 }
 :root{
     --my-grey: #bebcbb;
+    --my-dark-blu: #161c3b;
 }
 /***************** Common *******************/
 
@@ -31,6 +32,9 @@ html{
 }
 #ps-plus{
     background-color: var(--my-grey);
+}
+#ps-now{
+    background-color: var(--my-dark-blu);
 }
 /***************** card animate *******************/
 
