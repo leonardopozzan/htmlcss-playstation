@@ -8,3 +8,27 @@ html{
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
+
+/***************** Common *******************/
+
+/***************** header e nav *******************/
+#logo-sony{
+    width: 90px;
+}
+/***************** hero 1 *******************/
+#hero{
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 675px;
+}
+/***************** card animate *******************/
+
+.my-border-white{
+    border: 2px solid white;
+    transition: 0.5s;
+}
+.my-box-shadow:hover div:first-child{
+    box-shadow: 0 0 0 0px white, 0 0 0 1.5px #0072CE;
+    transform: translate(0 , -10%);
+}
