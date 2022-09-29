@@ -8,7 +8,9 @@ html{
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
-
+:root{
+    --my-grey: #bebcbb;
+}
 /***************** Common *******************/
 
 /***************** header e nav *******************/
@@ -27,8 +29,8 @@ html{
 #hero-2{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
-#latest-release{
-    background-color: var(--bs-dark);
+#ps-plus{
+    background-color: var(--my-grey);
 }
 /***************** card animate *******************/
 
