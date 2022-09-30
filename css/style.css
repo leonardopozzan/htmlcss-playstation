@@ -27,6 +27,15 @@ html{
 .my-menu{
     width: 100vw;
 }
+.my-triangle::after{
+    content: '';
+    background-image: url('../img/chevron-down-solid.svg');
+    background-size: 20px 15px;
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
 /***************** backgroun sezioni *******************/
 #hero, #hero-2{
     background-size: cover;
@@ -60,4 +69,15 @@ footer{
 }
 .my-hov-underline:hover{
     text-decoration: underline;
+}
+.my-triangle:hover::after{
+    background-image: url('../img/chevron-down-solid-hover.svg');
+}
+.my-hov-border:hover{
+    opacity: 1!important;
+    border-bottom: 3px solid var(--my-blue);
+}
+.my-hov-border{
+    border-bottom: 3px solid transparent;
+    transition: 0.5s;
 }
