@@ -18,7 +18,7 @@ html{
 .text-small{font-size: 12px;}
 /***************** header e nav *******************/
 .my-logo-small{width: 100px;}
-.my-menu{ width: 100vw;}
+.my-menu{ width: 100%;}
 
 .my-triangle::after{
     content: '';
