@@ -10,19 +10,24 @@ html{
 }
 :root{
     --my-grey: #bebcbb;
+    --my-blue: #00439c;
     --my-dark-blu: #161c3b;
 }
 /***************** Common *******************/
-
+.my-pad-top-big{
+    padding-top: 250px;
+}
+.text-small{
+    font-size: 12px;
+}
 /***************** header e nav *******************/
-#logo-sony{
-    width: 90px;
+.my-logo-small{
+    width: 100px;
 }
 /***************** backgroun sezioni *******************/
 #hero, #hero-2{
     background-size: cover;
     background-position: center;
-    height: 675px;
 }
 #hero{
     background-image: url('../img/jumbo-bg.png');
@@ -35,6 +40,9 @@ html{
 }
 #ps-now{
     background-color: var(--my-dark-blu);
+}
+footer{
+    background-color: var(--my-blue);
 }
 /***************** card animate *******************/
 
