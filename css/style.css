@@ -24,6 +24,9 @@ html{
 .my-logo-small{
     width: 100px;
 }
+.my-menu{
+    width: 100vw;
+}
 /***************** backgroun sezioni *******************/
 #hero, #hero-2{
     background-size: cover;
@@ -45,12 +48,16 @@ footer{
     background-color: var(--my-blue);
 }
 /***************** card animate *******************/
-
 .my-border-white{
     border: 2px solid white;
     transition: 0.5s;
 }
+
+/***************** animazioni hover *******************/
 .my-box-shadow:hover div:first-child{
     box-shadow: 0 0 0 0px white, 0 0 0 1.5px #0072CE;
     transform: translate(0 , -10%);
+}
+.my-hov-underline:hover{
+    text-decoration: underline;
 }
