@@ -14,19 +14,12 @@ html{
     --my-dark-blu: #161c3b;
 }
 /***************** Common *******************/
-.my-pad-top-big{
-    padding-top: 250px;
-}
-.text-small{
-    font-size: 12px;
-}
+.my-pad-top-big{padding-top: 250px;}
+.text-small{font-size: 12px;}
 /***************** header e nav *******************/
-.my-logo-small{
-    width: 100px;
-}
-.my-menu{
-    width: 100vw;
-}
+.my-logo-small{width: 100px;}
+.my-menu{ width: 100vw;}
+
 .my-triangle::after{
     content: '';
     background-image: url('../img/chevron-down-solid.svg');
@@ -35,43 +28,33 @@ html{
     height: 15px;
     display: inline-block;
     vertical-align: middle;
+    transition: 0.5s;
 }
 /***************** backgroun sezioni *******************/
 #hero, #hero-2{
     background-size: cover;
     background-position: center;
 }
-#hero{
-    background-image: url('../img/jumbo-bg.png');
-}
-#hero-2{
-    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
-}
-#ps-plus{
-    background-color: var(--my-grey);
-}
-#ps-now{
-    background-color: var(--my-dark-blu);
-}
-footer{
-    background-color: var(--my-blue);
-}
+#hero{background-image: url('../img/jumbo-bg.png');}
+#hero-2{background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');}
+#ps-plus{background-color: var(--my-grey);}
+#ps-now{background-color: var(--my-dark-blu);}
+footer{background-color: var(--my-blue);}
 /***************** card animate *******************/
 .my-border-white{
     border: 2px solid white;
     transition: 0.5s;
 }
-
 /***************** animazioni hover *******************/
 .my-box-shadow:hover div:first-child{
     box-shadow: 0 0 0 0px white, 0 0 0 1.5px #0072CE;
     transform: translate(0 , -10%);
 }
-.my-hov-underline:hover{
-    text-decoration: underline;
-}
+.my-hov-underline:hover{text-decoration: underline;}
+
 .my-triangle:hover::after{
     background-image: url('../img/chevron-down-solid-hover.svg');
+    transform: rotateZ(180deg);
 }
 .my-hov-border:hover{
     opacity: 1!important;
@@ -81,3 +64,8 @@ footer{
     border-bottom: 3px solid transparent;
     transition: 0.5s;
 }
+.my-hov-btn:hover{outline-offset: 3px;}
+.my-hov-btn.my-black:hover{outline: 3px solid black;}
+.my-hov-btn.my-red:hover{outline: 3px solid red;}
+.my-hov-btn.my-blue:hover{outline: 3px solid blue;}
+.my-hov-btn.my-white:hover{outline: 3px solid white;}
