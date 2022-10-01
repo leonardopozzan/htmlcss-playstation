@@ -56,16 +56,37 @@ footer{background-color: var(--my-blue);}
     background-image: url('../img/chevron-down-solid-hover.svg');
     transform: rotateZ(180deg);
 }
-.my-hov-border:hover{
+/* .my-hov-border:hover{
     opacity: 1!important;
     border-bottom: 3px solid var(--my-blue);
-}
+} */
 .my-hov-border{
     border-bottom: 3px solid transparent;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .my-hov-btn:hover{outline-offset: 3px;}
 .my-hov-btn.my-black:hover{outline: 3px solid black;}
 .my-hov-btn.my-red:hover{outline: 3px solid red;}
 .my-hov-btn.my-blue:hover{outline: 3px solid blue;}
 .my-hov-btn.my-white:hover{outline: 3px solid white;}
+
+.carousel-inner:has(.active.ps5) ~ #small-carousel .ps5{
+    opacity: 1!important;
+    border-bottom: 3px solid var(--my-blue);
+}
+.carousel-inner:has(.active.joypad) ~ #small-carousel .joypad{
+    opacity: 1!important;
+    border-bottom: 3px solid var(--my-blue);
+}
+.carousel-inner:has(.active.headset) ~ #small-carousel .headset{
+    opacity: 1!important;
+    border-bottom: 3px solid var(--my-blue);
+}
+.carousel-inner:has(.active.remote) ~ #small-carousel .remote{
+    opacity: 1!important;
+    border-bottom: 3px solid var(--my-blue);
+}
+.carousel-inner:has(.active.camera) ~ #small-carousel .camera{
+    opacity: 1!important;
+    border-bottom: 3px solid var(--my-blue);
+}

@@ -232,63 +232,86 @@
                 </div>
 
                 <!-- carsello animato -->
-                <!-- <div id="carouselExampleCaptions" class="carousel slide col-12 col-md-6" data-bs-ride="false">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="bg-dark" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" class="bg-dark" aria-label="Slide 5"></button>
-                    </div>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide col-12 col-md-6" data-bs-ride="false">
+                    <!-- <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class="bg-dark" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" class="bg-dark" aria-label="Slide 5"></button>
+                    </div> -->
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active ps5" data-bs-interval="6000">
                             <img src="/img/playstation-5-thumb.png" class="d-block w-100">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5 class="text-primary">Play Station 5</h5>
                                 <p class="text-primary">La nuova generazione delle console, migliore delle altre</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div  class="carousel-item joypad" data-bs-interval="3000">
                             <img src="/img/joypad-thumb.png" class="d-block w-100">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-primary">Second slide label</h5>
-                                <p class="text-primary">Some representative placeholder content for the second slide.</p>
+                                <h5 class="text-primary">Joypad</h5>
+                                <p class="text-primary">Nuove funzionalit&agrave; sui tasti per un coinvolgimento assoluto.</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item headset" data-bs-interval="3000">
                             <img src="/img/headset-thumb.png" class="d-block w-100">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-primary">Third slide label</h5>
-                                <p class="text-primary">Some representative placeholder content for the third slide.</p>
+                                <h5 class="text-primary">Headset Wireless</h5>
+                                <p class="text-primary">Nuova ANC e qualit&agrave; audio per una migliore esperienza di gioco.</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item remote" data-bs-interval="3000">
                             <img src="/img/remote-thumb.png" class="d-block w-100">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-primary">Third slide label</h5>
-                                <p class="text-primary">Some representative placeholder content for the third slide.</p>
+                                <h5 class="text-primary">Remote Control</h5>
+                                <p class="text-primary">Tutte le nuove funzioni a portata di mano.</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item camera" data-bs-interval="3000">
                             <img src="/img/camera-thumb.jpg" class="d-block w-100">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5 class="text-primary">Third slide label</h5>
-                                <p class="text-primary">Some representative placeholder content for the third slide.</p>
+                                <h5 class="text-primary">Telecamera HD</h5>
+                                <p class="text-primary">Per riprenderti nelle tue migliori rezioni durante il gioco.</p>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon bg-dark rounded-5" aria-hidden="true"></span>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span class="carousel-control-next-icon bg-dark rounded-5" aria-hidden="true"></span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
+
+                    <!-- carosello fisso con effett hover -->
+                    <div id="small-carousel" class="row mt-5 gy-3">
+                        <div class="col-4 col-lg opacity-50 my-hov-border ps5">
+                            <img src="/img/playstation-5-thumb.png" alt="ps5" class="img-fluid">
+                            <p class="text-center d-none d-lg-block pt-4">Console PS5</p>
+                        </div>
+                        <div class="col-4 col-lg opacity-50 my-hov-border joypad">
+                            <img  src="/img/joypad-thumb.png" alt="joypad" class="img-fluid">
+                            <p class="text-center d-none d-lg-block pt-4">Controller wireless DualSense</p>
+                        </div>
+                        <div class="col-4 col-lg opacity-50 my-hov-border headset">
+                            <img src="/img/headset-thumb.png" alt="headset" class="img-fluid">
+                            <p class="text-center d-none d-lg-block pt-4">Cuffie wireless con microfono Pulse 3</p>
+                        </div>
+                        <div class="col-4 col-lg opacity-50 my-hov-border remote">
+                            <img src="/img/remote-thumb.png" alt="remote" class="img-fluid">
+                            <p class="text-center d-none d-lg-block pt-4">Telecomando Media</p>
+                        </div>
+                        <div class="col-4 col-lg opacity-50 my-hov-border camera">
+                            <img src="/img/camera-thumb.jpg" alt="camera" class="img-fluid">
+                            <p class="text-center d-none d-lg-block pt-4">Telecamera HD</p>
+                        </div>
                     </div>
-                </div> -->
+                </div>
                 <!-- carsello animato -->
-                <div id="carouselExampleSlidesOnly" class="carousel slide col-12 col-md-6" data-bs-ride="carousel">
+                <!-- <div id="carouselExampleSlidesOnly" class="carousel slide col-12 col-md-6" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="img/playstation-5-thumb.png" class="d-block w-100">
@@ -306,10 +329,10 @@
                             <img src="img/camera-thumb.jpg" class="d-block w-100">
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- carosello fisso con effett hover -->
-                <div class="row mt-5 gy-3">
+                <!-- <div class="row mt-5 gy-3">
                     <div class="col-4 col-md opacity-50 my-hov-border">
                         <img src="/img/playstation-5-thumb.png" alt="ps5" class="img-fluid">
                         <p class="text-center d-none d-md-block pt-4">Console PS5</p>
@@ -331,7 +354,7 @@
                         <p class="text-center d-none d-md-block pt-4">Telecamera HD</p>
                     </div>
                 </div>
-            
+            -->
         </section>
 
         <!-- hero 2 con titolo -->
